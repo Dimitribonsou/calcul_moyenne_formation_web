@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>CALCUL MOYENNE FINAL</h1>
+            <div class="input">
+                
+                <label for="cc1">NOTE CC1</label><br>
+                <input type="number" placeholder="note cc1"   name="cc1" id="note1" required>
+            </div>
+            <div class="input">
+                <label f
+                or="cc2">NOTE CC2</label><br>
+                <input type="number"  name="cc2" placeholder="note cc2" id="note2" required>
+            </div>
+            <div class="input">
+                <label for="presence">NOTE PRESENCE</label><br>
+                <input type="number" placeholder="note presence"  name="presence" id="presence" required>
+            </div>
+            <div class="input">
+                <label for="td">NOTE TD</label><br>
+                <input type="number" placeholder="note td"  name="td" id="td" required>
+            </div>
+            <div class="btn">
+                <input type="button" value="Valider" id="valider">
+                <input type="text" placeholder="moyenne" id="moyenne">
+                <input type="button" value="Annuler" id="annuler">
+            </div>
+        </form>
+    </div>
+    <script src="./calcul.js"></script>
+</body>
+</html>
